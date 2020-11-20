@@ -1,0 +1,60 @@
+<div *ngIf=" showspinner " [@expand]>
+  <mat-spinner></mat-spinner><h4>Loading. . . Please Wait</h4>
+ </div>
+<div class="container"
+     fxLayout="row"
+     fxLayout.sm="column"
+     fxLayout.xs="column"
+     fxLayoutAlign.gt-md="space-around center"
+     fxLayoutGap="10px"
+     [@expand]
+     *ngIf="ok">
+
+  
+  <mat-card  fxFlex class="cbkg" >
+    <div  [@expand]  >
+      <mat-card-header>
+        <div mat-card-avatar></div>
+        <mat-card-title>
+          <h3>HTML5, CSS3 & JavaScript</h3>
+        </mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="/assets/images/html.jpg" alt="front end development">
+      <mat-card-content>
+        <p>
+        </p>
+      </mat-card-content>
+    </div>
+  </mat-card>
+  <mat-card  fxFlex class="cbkg">
+    <div   [@expand] >
+      <mat-card-header>
+        <div mat-card-avatar></div>
+        <mat-card-title>
+          <h3>Bootstrap & jQuery</h3>
+        </mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="/assets/images/boots.jpg" height="200px" alt="front end development">
+      <mat-card-content>
+        <p>
+        </p>
+      </mat-card-content>
+    </div>
+  </mat-card>
+  <mat-card  fxFlex class="cbkg">
+    <div  [@expand]  >
+      <mat-card-header>
+        <div mat-card-avatar></div>
+        <mat-card-title>
+          <h3>Angular Applications</h3>
+        </mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="/assets/images/angular.jpg" height="200px" alt="front end development">
+      <mat-card-content>
+        <p>
+        </p>
+      </mat-card-content>
+    </div>
+  </mat-card>
+  
+</div>

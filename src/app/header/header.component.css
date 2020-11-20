@@ -1,0 +1,22 @@
+
+
+.jumbotron {
+    margin: 0 auto;
+    padding: 70px,36px;
+    background-image: url(/assets/images/bbkg.jpg);
+  background-repeat: repeat;
+    background-size: contain;
+    
+    color:floralwhite;
+    min-height: 150px;
+    text-align: center;
+    
+}
+.active{
+    background: #4527A0;
+}
+.header{
+    font-size: large;
+    font-weight: 900;
+    color:white;
+}

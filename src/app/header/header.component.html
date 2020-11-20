@@ -1,0 +1,30 @@
+<mat-toolbar  color="primary" [style.position]="'fixed'" [style.z-index]="'1'">
+  <span  ><a routerLink="/home" ><img src="/assets/images/icon.png" height="60" min-width="80" ></a></span>
+  
+    <a [style.margin-left]="'10px'"  mat-button routerLink="/home" routerLinkActive="active"><span class="fa fa-home fa-lg"></span> Home</a>
+    <a mat-button routerLink="/about" routerLinkActive="active"><span class="fa fa-info fa-lg"></span> About</a>
+    <a mat-button routerLink="/services" routerLinkActive="active"><span class="fa fa-list fa-lg"></span> Services</a>
+    <a mat-button routerLink="/contact" routerLinkActive="active"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+    <span class="flex-spacer"></span>
+    <a [style.background-color]="'black'" mat-button (click)="openLoginForm()"><span  class="fa fa-sign-in fa-lg"></span
+      > Login</a>
+  
+</mat-toolbar>
+
+<div class="container jumbotron " [style.padding-top]="'100px'"
+    fxLayout="row"
+    fxLayout.sm="column" 
+    fxLayout.xs="column" 
+    fxLayoutAlign.xs="start center"
+    fxLayoutAlign.sm="start center" 
+    fxLayoutAlign.gt-sm="center center" 
+    fxLayoutGap="10px">
+
+  <div class="header" fxFlex fxFlex.gt-sm="50%">
+    <h1> U Web Developer</h1>
+    <p>We take inspiration from the World's best developers, and develope a unique website experience. Our extraordinary and unique development
+      will get your attentions!</p>
+  </div>
+  <div fxflex></div>
+ 
+</div>
